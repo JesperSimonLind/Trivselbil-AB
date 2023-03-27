@@ -2,6 +2,7 @@ import AboutMini from "../assets/About-mini.png";
 import { Footer } from "../components/Footer";
 import { Header } from "../components/Header";
 import { AiOutlineArrowDown } from "react-icons/ai";
+import about1 from "../assets/about1.png";
 export const About = () => {
   return (
     <>
@@ -13,6 +14,19 @@ export const About = () => {
         <div className="w-full flex justify-center mb-4">
           <AiOutlineArrowDown className="text-4xl text-white animate-bounce" />
         </div>
+      </section>
+
+      <section>
+        <div class="relative">
+          <img src={about1} />
+          <h1 class="absolute text-h4 md:text-h2 lg:text-h2 font-inter font-bold text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+            TRIVSELBIL HAR VARIT I BILENS TJÄNST SEDAN 1989
+          </h1>
+        </div>
+        {/* <img src={about1}></img>
+        <h2 className="font-inter font-bold text-white text-h2">
+          TRIVSELBIL HAR VARIT I BILENS TJÄNST SEDAN 1989
+        </h2> */}
       </section>
 
       <section className="bg-bgBlack bg-hero4 min-h-screen grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 text-white pt-5 pb-5">
